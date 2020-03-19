@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<mata charset="utf-8">
+	<title>视频播放</title>
+	<style>
+	.wrap{
+		margin: 0 auto;
+		width: 800px;
+		height: 500px;
+		border: 0px solid black;
+		margin-bottom: 150px;
+	}
+	.wrap1{
+		width: 600px;
+		height: 30px;
+		margin: 0 auto;
+		border: 3px solid black;
+	}
+	.video1{
+		margin: 0px auto;
+	}
+	.box1{
+		width: 100px;
+		height: 80px;
+		border:1px solid black;
+		margin: 0 auto;
+	}
+</style>
+<body>
+	<div class= "wrap1">box1</div>
+	<div class="wrap">
+		<video src="1.webm" controls="controls" width="800px" height="600px"></video>
+	</div>
+	
+	<div class= "box1">
+	<input type="button" value="跳转" onclick= "window.location.href='box2.html'">
+	</div>
+</html>
